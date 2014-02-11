@@ -1,5 +1,5 @@
 // shortcut: (ctrl cmd c)
-var artboard = [[[doc currentPage] artboards] firstObject];
+var artboard = [[doc currentPage] currentArtboard];
 
 var array = [NSArray arrayWithObject:artboard];
 
